@@ -90,6 +90,7 @@ namespace LiveSplit.DragonAgeInquisition
                             if (IsLoading)
                             {
                                 Debug.WriteLine(String.Format("[NoLoads] Load Start - {0}", frameCounter));
+                                MessageBox.Show("Loading started.....");
 
                                 loadingStarted = true;
 
@@ -105,6 +106,7 @@ namespace LiveSplit.DragonAgeInquisition
                             else
                             {
                                 Debug.WriteLine(String.Format("[NoLoads] Load End - {0}", frameCounter));
+                                MessageBox.Show(".....and loading ended.");
 
                                 if (loadingStarted)
                                 {
@@ -167,6 +169,7 @@ namespace LiveSplit.DragonAgeInquisition
             }
 
             Debug.WriteLine(String.Format("[NoLoads] Found Dragon Age Inquisition with size {0}", game.MainModule.ModuleMemorySize));
+            MessageBox.Show("Process found!");
 
             return game;
         }

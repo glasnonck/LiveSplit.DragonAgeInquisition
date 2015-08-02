@@ -33,6 +33,15 @@
     <Reference Include="LiveSplit.Core">
       <HintPath>..\..\..\Google Drive\Speedrun\Livesplit_Current\LiveSplit.Core.dll</HintPath>
     </Reference>
+    <Reference Include="LiveSplit.Text">
+      <HintPath>..\..\..\Google Drive\Speedrun\Livesplit_Current\Components\LiveSplit.Text.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveSplit.Timer">
+      <HintPath>..\..\..\Google Drive\Speedrun\Livesplit_Current\Components\LiveSplit.Timer.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveSplit.Title">
+      <HintPath>..\..\..\Google Drive\Speedrun\Livesplit_Current\Components\LiveSplit.Title.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Windows.Forms" />
